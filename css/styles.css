@@ -1,46 +1,60 @@
 body{
   font-family: "Roboto", sans-serif;
-}
-ul{
-    list-style: none;
+  color: #434455;
+  background-color: #fff;
 }
 
 a{
 text-decoration: none;
 }
 
-.header-logo{
+ul,ol {
+    list-style: none;
+}
+
+.logo{
+    font-family: Roboto , sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.header-logo-color{
-   font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-part{
     color: #2e2f42;
 }
 
-.header-menu-link{
+.nav-link{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+.nav-link:hover,
+.nav-link:focus{
+    color: #404BBF;
+}
 
-.Contacts-email-mobile{
-       font-weight: 400;
-        font-size: 16px;
+
+
+.address{
+    font-style: normal;
+}
+
+.address-link{
+    color: #434455;
+    font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
 }
+ .address-link-hover,
+ .address-link-focus{
+    color: #404BBF;
+ }
+
+
 .hero-title{
    font-weight: 700;
     font-size: 56px;
