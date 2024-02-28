@@ -13,7 +13,7 @@ ul,ol {
 }
 
 .logo{
-    font-family: Raleway , sans-serif;
+    font-family: "Raleway", sans-serif
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -25,15 +25,15 @@ ul,ol {
     color: #2e2f42;
 }
 
-.nav-link{
-        font-weight: 500;
+.link-nav{
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.nav-link:hover,
-.nav-link:focus{
+.link-nav:hover,
+.link-nav:focus{
     color: #404BBF;
 }
 
@@ -43,25 +43,26 @@ ul,ol {
     font-style: normal;
 }
 
-.address-link{
+.link-address{
     color: #434455;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
- .address-link-hover,
- .address-link-focus{
+ .link-address:hover,
+ .link-address-focus{
     color: #404BBF;
  }
 
 
 .hero-title{
+    font-family: "Roboto", sans-serif;
    font-weight: 700;
     font-size: 56px;
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: #404BBF;
 }
 
 .hero-buy-btn{
