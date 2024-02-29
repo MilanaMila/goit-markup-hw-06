@@ -133,19 +133,21 @@ font-family: "Roboto", sans-serif;
 /*================team==============*/
 
 .team {
-    background: #f4f4fd;
+ background-color: #FFFFFF
 }
 
 .team-title {
    font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 
-.team-list {}
+.team-list {
+
+}
 
 .team-item {}
 
@@ -179,7 +181,7 @@ font-family: "Roboto", sans-serif;
 .Portfolio-title {
   font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
