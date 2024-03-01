@@ -51,7 +51,7 @@ button {
 }
 .link-nav:hover,
 .link-nav:focus{
-    background-color: #404BBF
+    color: #404BBF
 }
  /*===============================*/
 
@@ -69,7 +69,7 @@ button {
 }
  .link-address:hover,
  .link-address-focus{
-    background-color: #404BBF
+ color: #404BBF
  }
   /*===============================*/
 
