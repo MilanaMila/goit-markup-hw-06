@@ -181,9 +181,13 @@ background-color: #f4f4fd;
     color: #2e2f42;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    text-transform: capitalize;
+}
 
-.portfolio-item {}
+.portfolio-item {
+    background-color: #FFFFFF
+}
 
 .portfolio-image {}
 
