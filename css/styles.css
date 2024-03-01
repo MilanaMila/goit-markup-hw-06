@@ -75,26 +75,23 @@ button {
 
   /*=========hero===========*/
 .hero{
-    background: #2e2f42;
+    background-color: #2e2f42;
     width: 1440px;
     height: 600px;
 }
 
 .hero-title{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
 }
 
 .hero-buy-btn{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
+    background-color: #4d5ae5;
 }
  /*==================================*/
 
@@ -128,7 +125,7 @@ button {
 /*================team==============*/
 
 .team {
-background: #f4f4fd;
+background-color: #f4f4fd;
 }
 
 .team-title {
