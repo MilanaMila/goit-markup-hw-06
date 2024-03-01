@@ -98,9 +98,12 @@ font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     cursor: pointer;
 }
-.hero-buy-btn:hover,
+.hero-buy-btn:hover{
+ background-color: #4d5ae5;
+    color: #fff;
+}
 .hero-buy-btn:focus{
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     color: #fff;
 }
 
