@@ -51,7 +51,7 @@ button {
 }
 .link-nav:hover,
 .link-nav:focus{
-    color: #404BBF
+    color: #404bbf;
 }
  /*===============================*/
 
@@ -133,7 +133,6 @@ background-color: #f4f4fd;
 }
 
 .team-title {
-    text-transform: capitalize
    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -143,7 +142,7 @@ background-color: #f4f4fd;
 }
 
 .team-list {
-
+ text-transform: capitalize
 }
 
 .team-item {
@@ -177,12 +176,7 @@ background-color: #f4f4fd;
 
 .portfolio-title {
     text-transform: capitalize
-  font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+  
 }
 
 .portfolio-list {
