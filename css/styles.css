@@ -64,12 +64,14 @@ button {
 .link-address{
     color: #434455;
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
- .link-address:hover,
+ .link-address:hover{
+    color: #404bbf;
+ }
  .link-address-focus{
- color: #404BBF;
+     color: #404BBF;
  }
   /*===============================*/
 
