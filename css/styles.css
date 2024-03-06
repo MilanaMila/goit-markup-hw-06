@@ -3,15 +3,25 @@ body{
   color: #434455;
   background-color: #fff;
 }
-
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
 a{
 text-decoration: none;
 }
 
 ul,ol {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -108,14 +118,12 @@ button {
 
   /*=========hero===========*/
 .hero{
-padding-top: 188px;
-padding-bottom: 188px;
- 
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-wrap{
-    background-color: #2e2f42;
-    padding: 188px;
-    padding-top: 188px;
+    
 }
 
 .hero-title{
@@ -126,6 +134,7 @@ padding-bottom: 188px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
 }
 
 .hero-buy-btn{
@@ -136,10 +145,13 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
-    display: block;
-    margin: 0;
-    min-width: 169px;
-    height: 56px;
+   display: block;
+   min-width: 169px;
+   height: 56px;
+   border: none;
+  background-color:#4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .hero-buy-btn:hover{
     background-color: #404BBF;
@@ -157,12 +169,12 @@ font-family: "Roboto", sans-serif;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.container{
-}
 .features-list{
+    display: flex;
+    gap: 24px;
 }
 .features-item{
-
+margin-right: 24px
 }
 .features-subitem{
    font-weight: 500;
@@ -170,6 +182,7 @@ font-family: "Roboto", sans-serif;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .features-item-text{
     font-size: 16px;
@@ -201,11 +214,13 @@ font-family: "Roboto", sans-serif;
 }
 
 .team-list {
- 
+display: flex;
+gap: 24px;
 }
 
 .team-item {
     background-color: #FFFFFF;
+    margin-right: 24px;
 }
 
 .team-image {}
@@ -255,7 +270,6 @@ font-family: "Roboto", sans-serif;
     
 
 .portfolio-item {
-    
 }
 
 .portfolio-image {
