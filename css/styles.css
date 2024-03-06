@@ -41,7 +41,8 @@ button {
 
  .container{
     width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
  }
  .header{
@@ -123,8 +124,11 @@ button {
     padding-bottom: 188px;
 }
 .hero-wrap{
-    
+
+
 }
+    
+
 
 .hero-title{
     font-family: "Roboto", sans-serif;
@@ -134,7 +138,6 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        max-width: 496px;
 }
 
 .hero-buy-btn{
@@ -174,7 +177,7 @@ font-family: "Roboto", sans-serif;
     gap: 24px;
 }
 .features-item{
-margin-right: 24px
+flex-basis: calc((100% - 72px) / 4);
 }
 .features-subitem{
    font-weight: 500;
@@ -265,11 +268,15 @@ gap: 24px;
 
 
 .portfolio-list {
-
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
 }
     
 
 .portfolio-item {
+    row-gap: 48px;
+    margin-bottom: 48px;
 }
 
 .portfolio-image {
