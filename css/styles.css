@@ -108,11 +108,13 @@ button {
 
   /*=========hero===========*/
 .hero{
+    padding-bottom: 120px;
  
 }
 .hero-wrap{
     background-color: #2e2f42;
-    padding: 188px 292px;
+    padding: 188px;
+    padding-top: 188px;
 }
 
 .hero-title{
@@ -123,6 +125,8 @@ button {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
 }
 
 .hero-buy-btn{
@@ -133,6 +137,10 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
+    display: block;
+    margin: 0;
+    min-width: 169px;
+    height: 56px;
 }
 .hero-buy-btn:hover{
     background-color: #404BBF;
@@ -147,6 +155,7 @@ font-family: "Roboto", sans-serif;
 
 
 .features{
+    padding: 120px;
 }
 .features-list{
 
