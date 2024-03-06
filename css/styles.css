@@ -1,4 +1,4 @@
-body {
+body{
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -126,8 +126,6 @@ padding-bottom: 188px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        max-width: 496px;
-        margin: 0 auto;
 }
 
 .hero-buy-btn{
@@ -290,6 +288,7 @@ font-family: "Roboto", sans-serif;
     padding-bottom: 100px;
 }
 
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -298,6 +297,8 @@ font-family: "Roboto", sans-serif;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo-part {
@@ -310,5 +311,5 @@ color: #f4f4fd;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        margin-bottom: 16px;
+        
 }
