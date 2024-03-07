@@ -28,6 +28,9 @@ ul,ol {
 button {
     cursor: pointer;
 }
+address{
+    font-style: normal;
+}
 img{
     display: block;
 }
@@ -123,14 +126,15 @@ img{
 .hero{
     background-color: #2e2f42;
     padding-top: 188px;
-    padding-bottom: 188px;
+    padding-bottom: 292px;
 }
 .hero-wrap{
-display: block;
+    text-align: center;
+    
 }
     
 .hero-button{
-    display: flex;
+margin-bottom: 48px;
 
 }
 
@@ -142,7 +146,6 @@ display: block;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        max-width: 496px;
 
 }
 
@@ -156,11 +159,8 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
-    background-color:#4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px;
-        border: none;
-        cursor: pointer;
+    
+  
 }
 .hero-buy-btn:hover{
     background-color: #404BBF;
@@ -246,10 +246,15 @@ padding-bottom: 32px;
     background-color: #FFFFFF;
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
-    text-align: center;
     margin-bottom: 8px;
+    text-align: center;
 }
-
+.team-one-secrion{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 8px
+    
+}
 .team-image {}
 
 .team-subitem {
@@ -258,7 +263,6 @@ padding-bottom: 32px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
 
 }
 
@@ -267,6 +271,7 @@ padding-bottom: 32px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        
 }
 
 /*===========================*/
@@ -303,7 +308,6 @@ row-gap: 48px;
 
 .portfolio-item {
     width: calc((100% - 48px) / 4)
-    padding: 32px 16px;
     
 
 }
