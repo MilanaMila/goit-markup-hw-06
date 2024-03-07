@@ -127,7 +127,10 @@ button {
 display: block;
 }
     
+.hero-button{
+    display: flex;
 
+}
 
 .hero-title{
     font-family: "Roboto", sans-serif;
@@ -138,9 +141,12 @@ display: block;
         text-align: center;
         color: #fff;
         max-width: 496px;
+
 }
 
 .hero-buy-btn{
+    min-width: 169px;
+        height: 56px;
 font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -149,10 +155,9 @@ font-family: "Roboto", sans-serif;
     color: #fff;
     background-color: #4D5AE5;
     background-color:#4d5ae5;
-    min-width: 169px;
-        height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
         border: none;
-        border-radius: 4px;
         cursor: pointer;
 }
 .hero-buy-btn:hover{
@@ -230,11 +235,16 @@ flex-basis: calc((100% - 72px) / 4);
 .team-list {
 display: flex;
 gap: 24px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team-item {
     background-color: #FFFFFF;
     margin-right: 24px;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    padding: 0px 0px 32px 0px;
 }
 
 .team-image {}
@@ -290,7 +300,6 @@ margin-bottom: 48px;
     
 
 .portfolio-item {
-   
 }
 
 .portfolio-image {
