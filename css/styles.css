@@ -126,15 +126,14 @@ img{
 .hero{
     background-color: #2e2f42;
     padding-top: 188px;
-    padding-bottom: 292px;
+    padding-bottom: 188px;
 }
 .hero-wrap{
-    text-align: center;
-    
+display: block;
 }
     
 .hero-button{
-margin-bottom: 48px;
+    display: flex;
 
 }
 
@@ -159,7 +158,6 @@ font-family: "Roboto", sans-serif;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
-    
   
 }
 .hero-buy-btn:hover{
@@ -249,12 +247,7 @@ padding-bottom: 32px;
     margin-bottom: 8px;
     text-align: center;
 }
-.team-one-secrion{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin-bottom: 8px
     
-}
 .team-image {}
 
 .team-subitem {
@@ -307,9 +300,7 @@ row-gap: 48px;
     
 
 .portfolio-item {
-    width: calc((100% - 48px) / 4)
     
-
 }
 
 .portfolio-image {
