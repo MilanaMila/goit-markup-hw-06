@@ -302,13 +302,14 @@ display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
+margin-bottom: 8px;
 }
     
 .portfolio-image-text{
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 .portfolio-item {
 
@@ -331,7 +332,6 @@ row-gap: 48px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-bottom: 8px;
 }
 
 /*==================*/
