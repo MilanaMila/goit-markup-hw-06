@@ -379,16 +379,40 @@ row-gap: 48px;
         display: inline-block;
         margin-bottom: 16px;
 }
+.media-logo{
+    margin-right: 120px;
+}
 
 .footer-logo-part {
 color: #f4f4fd;
 }
-
+.media-box{ 
+width: 208px;
+height: 80px;
+margin-top: 110px;
+margin-bottom: 122px;
+margin-left: 120px;
+margin-right: 120px;
+}
+.social-media-text{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#fff;
+    margin-bottom: 16px;
+}
+.social-footer{
+    display: flex;
+    gap: 16px;
+}
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    
         
 }
