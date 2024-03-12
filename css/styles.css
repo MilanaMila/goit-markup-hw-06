@@ -55,6 +55,9 @@ img{
  .header-container{
     display: flex;
     align-items: center;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
  }
  .navigation{
     display: flex;
@@ -182,7 +185,6 @@ font-family: "Roboto", sans-serif;
 }
 .hero-buy-btn:hover{
     background-color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-buy-btn:focus{
     background-color: #404BBF;
