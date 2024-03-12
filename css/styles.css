@@ -1,5 +1,5 @@
 body{
-  font-family: Roboto , sans-serif;
+  font-family: "Roboto" , sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -62,7 +62,7 @@ img{
  }
 
 .logo{
-    font-family: Raleway , sans-serif;
+    font-family: "Raleway" , sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -92,6 +92,21 @@ img{
     color: #2e2f42;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.current{
+    position: relative;
+    color: #404BBF;
+}
+.current::after{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404BBF;
+    border-radius:2px;
+    height: 4px;
+    width: 100%;
 }
 .link-nav:hover,
 .link-nav:focus{
@@ -114,6 +129,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  .link-address:hover,
  .link-address:focus{
@@ -129,7 +145,7 @@ img{
 }
 
 .hero-title{
-    font-family: Roboto , sans-serif;
+    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -143,7 +159,7 @@ img{
 }
 
 .hero-buy-btn{
-font-family: Roboto , sans-serif;
+font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -235,13 +251,13 @@ flex-basis: calc((100% - 72px) / 4);
 .team-list {
 display: flex;
 gap: 24px;
-
 }
+
 .team-image-desihner{
     padding-top: 32px;
         padding-bottom: 32px;
         text-align: center;
-        margin-bottom: 8px
+        margin-bottom: 8px;
 }
 
 .team-item {
@@ -251,7 +267,6 @@ gap: 24px;
 }
     
 .team-image {
-
 }
 
 .team-subitem {
@@ -283,13 +298,13 @@ gap: 24px;
 
 .portfolio-title {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-      text-transform: capitalize;
-      max-width: 218px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    max-width: 218px;
     margin: 0 auto;
     margin-bottom: 72px;
 }
@@ -317,18 +332,18 @@ row-gap: 48px;
 
 .portfolio-subitem {
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /*==================*/
@@ -344,7 +359,7 @@ row-gap: 48px;
 
 
 .footer-logo {
-    font-family: Raleway , sans-serif;
+    font-family: "Raleway" , sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -361,9 +376,9 @@ color: #f4f4fd;
 
 .footer-text {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
         
 }
