@@ -381,8 +381,21 @@ row-gap: 48px;
     margin-right: 120px;
     
 }
-.social-icon{ 
+.social-link{ 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color:#4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 
+}
+.social-link:hover{
+    background-color: #31d0aa;
+}
+.social-link:focus{
+    background-color: #31d0aa;
 }
 .footer-logo-part {
 color: #f4f4fd;
