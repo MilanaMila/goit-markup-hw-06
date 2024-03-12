@@ -379,7 +379,6 @@ row-gap: 48px;
 }
 .media-logo{
     margin-right: 120px;
-    
 }
 .social-item{
     width: 100%;
@@ -389,12 +388,14 @@ row-gap: 48px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    width: 40px;
+        height: 40px;
 }
   
-.social-link:hover{
+.social-item:hover{
     background-color: #31d0aa;
 }
-.social-link:focus{
+.social-item:focus{
     background-color: #31d0aa;
 }
 .footer-logo-part {
