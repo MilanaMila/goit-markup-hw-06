@@ -267,10 +267,7 @@ gap: 24px;
     padding-top: 32px;
         padding-bottom: 32px;
         text-align: center;
-    
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+        margin-bottom: 8px;
 
 }
 
@@ -278,6 +275,9 @@ gap: 24px;
     background-color: #FFFFFF;
     margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
     
 .team-image {
