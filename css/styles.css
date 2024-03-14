@@ -336,20 +336,23 @@ flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
     
 .portfolio-image-text{
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
-.portfolio-item {
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+.portfolio-item{
 
+}
+    
 
 
 .portfolio-subitem {
@@ -370,7 +373,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .overlay{
 position: relative;
 overflow: hidden;
-}
+ }
+
 .new-card{
     position: absolute;
     top: 0;
@@ -384,6 +388,7 @@ overflow: hidden;
     width: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .overlay:hover
  .new-card{
