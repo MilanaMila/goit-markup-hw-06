@@ -275,7 +275,7 @@ display: flex;
 gap: 24px;
 }
 .footer-icon{
-    
+  
 }
 
 .team-image-desihner{
@@ -293,6 +293,7 @@ gap: 24px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
     
 .team-image {
@@ -305,19 +306,29 @@ gap: 24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
      margin-bottom: 8px;
+   
 }
 
 .team-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-        
+        color: #434455; 
 }
-.footer-list{
+
+.footer-media-item{
+
+}
+.footer-list-new{
+    display: flex;
  justify-content: center;
- gap: 24px;
- display: flex;
+gap: 24px;
+}
+.footer-media-icon:hover{
+    background-color: #404bbf
+}
+.footer-media-icon:focus{
+background-color: #404bbf;
 }
 /*===========================*/
 
