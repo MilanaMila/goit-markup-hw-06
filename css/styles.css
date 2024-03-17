@@ -524,8 +524,9 @@ color: #ffffff;
     gap:24px;
 }
 .footer-form{
-padding-right:  80px;
+
 }
+
 
 .form-input{
     width: 264px;
@@ -610,15 +611,17 @@ color: #ffffff;
 .modal-button:hover{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-button:focus{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 .modal-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-overlay{
+.modal{
     padding: 72px 24px 24px 24px;
 }
