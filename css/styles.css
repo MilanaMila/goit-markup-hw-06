@@ -565,7 +565,7 @@ color: #ffffff;
     margin-left: 16px;
 }
 
-.modal-overlay{
+.modal-form{
     position: fixed;
     top: 0;
     left: 0;
@@ -589,7 +589,7 @@ color: #ffffff;
         border-radius: 4px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}.modal-button{
+}.modal-form-button{
     position: absolute;
     top: 24px;
     right: 24px;
@@ -605,20 +605,27 @@ color: #ffffff;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-button:hover,
-.modal-button:focus{
+.modal-form-button:hover,
+.modal-form-button:focus{
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
 }
-.modal-icon{
+.modal-form-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
 .modal{
     padding: 72px 24px 24px 24px;
 }
 
-
-
+.modal-form-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+    margin-bottom: 16px;
+    
+}
