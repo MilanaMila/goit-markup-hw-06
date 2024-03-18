@@ -675,9 +675,9 @@ margin-bottom: 4px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
     outline: transparent;
     resize: none;
@@ -707,10 +707,10 @@ margin-bottom: 4px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
+    fill: transparent;
 }
 .checkbox-link{
     color:#4d5ae5;
