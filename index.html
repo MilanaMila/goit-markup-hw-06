@@ -432,7 +432,7 @@ problem to walk away with the perfect and creative solution. </p>
               
               
               
-             <form class="modal-form">
+        <form class="modal-form">
                <div class="modal-field">
                  <label for="user-name" class="modai-label">Name</label>
                  <div class="modal-input-wrap">
@@ -475,28 +475,34 @@ problem to walk away with the perfect and creative solution. </p>
                   </svg>
                 </div>
               </div>
-              <div class="modal-field" >
-                <textarea>
-                  
-                </textarea>
-
+              
+              <div class="modal-field">
+                <label class="modai-label" for="user-comment">Comment</label>
+                <textarea  
+                  name="user-comment" 
+                  id="user-comment"
+                  placeholder="Text input" 
+                  class="madal-text"
+                  ></textarea>
+              
+              
               </div>
-
-
-
-
-              </form>
-
-
-
-
-
-          
-
-
+              <div class="checkbox">
+                <input class="checkbox-input visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
+                <label class="checkbox-label" for="user-privacy">
+                  <span class="checkbox-span">
+                    <svg class="checkbox-icon" width="10" height="8">
+                      <use href="./images/icona.svg#icon-Vector-4"></use>
+                    </svg>
+                  </span>
+                  I accept the terms and conditions of the
+                  <a class="checkbox-link" href="">Privacy Policy </a>
+                </label>
+              </div>
+              <button class="check-button" type="submit">Send</button>
+        </form>
             </div>
-
-        </div>
+       </div>
     </body>
 </html>
 
