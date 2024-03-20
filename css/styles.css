@@ -750,13 +750,14 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
-
-
 }
 
 
-
-
+.checkbox-input:checked + .checkbox-label span{
+border: none;
+fill:#F4F4FD;
+background-color:#404bbf;
+}
 
 
 
