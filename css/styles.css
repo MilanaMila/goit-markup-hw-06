@@ -750,15 +750,14 @@ display: inline-flex;
 align-items: center;
 justify-content: center;
 fill: transparent;
+
+
 }
 
 
 
 
 
-.checkbox-span [type="checkbox"]:checked* {
-   fill: #F4F4FD;
-}
 
 
 
