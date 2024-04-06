@@ -264,7 +264,7 @@ address {
     padding-top: 188px;
         padding-bottom: 188px;*/
 }
-@media screen and(min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/portfolio/mob/Dark-bgoffice-mob@2x.jpg);
   }
@@ -275,7 +275,7 @@ address {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/portfolio/tabl/Dark-bgoffice-tabl@1x.jpg);
   }
 }
-@media screen and(min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-wrap {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/portfolio/tabl/Dark-bgoffice-tabl@2x.jpg);
   }
@@ -787,18 +787,34 @@ address {
 }
 
 @media screen and (min-width: 768px) {
-  .footer .container {
-    width: 584px;
-  }
+ /* .container {
+    max-width: 768px;
+    
+  }*/
 }
-.footer-flex {
+@media screen and (min-width: 1158px){
+.footer{
+  padding: 100px 0 ;
+}
+}
+.footer-flex{
   display: flex;
-  align-items: baseline;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  gap: 72px 24px;
 }
-
+@media screen and (min-width: 768px){
+  .footer-flex{
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1158px){
+.footer-flex {
+    justify-content: space-between;
+   }
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -826,10 +842,16 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+text-align: center;
+margin-bottom: 16px;
+}
+@media screen and (min-width: 768px){
+  
 }
 .footer-list {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 .footer-media-item {
   width: 40px;
@@ -877,6 +899,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+
 }
 
 .footer-form {
@@ -885,11 +908,17 @@ address {
 }
 
 .form {
-  display: flex;
+  /*display: flex;*/
   gap: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px){
+  .form{
+    flex-direction: row;
+  }
 }
 .form-input {
   width: 264px;
