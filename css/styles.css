@@ -362,7 +362,7 @@ address {
   top: 0;
   right: 0;
   width: 100vw;
-  /* height: 100%; РОЗКОМЕНТУЙ */
+   height: 100%; 
   height: 100vh;
   padding: 72px 24px 40px;
   display: flex;
@@ -385,11 +385,34 @@ address {
   right: 24px;
   top: 24px;
 }
+.menu-close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-close-btn:hover,
+.menu-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
 .menu-close-icon {
 }
-/* .mob-nav-list {
+ .mob-nav-list {
   margin-bottom: 50px;
-} */
+} 
 .mob-nav-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -414,6 +437,10 @@ address {
   margin-bottom: 24px;
 }
 .mob-link-addres {
+ 
+}
+.mob-link-address.color{
+  color: #434455;
 }
 .mob-footer-list {
   display: flex;
@@ -812,6 +839,7 @@ address {
 }
 @media screen and (min-width: 1158px){
 .footer-flex {
+  display: flex;
     justify-content: space-between;
    }
 }
@@ -821,7 +849,7 @@ address {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
@@ -846,7 +874,9 @@ text-align: center;
 margin-bottom: 16px;
 }
 @media screen and (min-width: 768px){
-  
+.footer-logo-subtitle {
+  text-align: left;
+}
 }
 .footer-list {
   display: flex;
@@ -918,7 +948,11 @@ margin-bottom: 16px;
 @media screen and (min-width: 768px){
   .form{
     flex-direction: row;
+    margin-right: 50px;
   }
+.footer-form{
+  text-align: left;
+}
 }
 .form-input {
   width: 264px;
@@ -964,7 +998,7 @@ margin-bottom: 16px;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: none;
+  /*display: none;*/
 }
 
 .modal {
@@ -972,14 +1006,21 @@ margin-bottom: 16px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  /*width: 408px;*/
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px){
 
+}
+@media screen and (min-width: 1158px){
+  .modal{
+    width: 408px
+  }
+}
 .modal-form-button {
   position: absolute;
   top: 24px;
@@ -1134,5 +1175,8 @@ margin-bottom: 16px;
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 90px;
+ margin-left: 90px;
+
 }
+
+
