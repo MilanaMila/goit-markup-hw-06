@@ -371,6 +371,7 @@ address {
   gap: 24px;
   overflow-y: auto;
   pointer-events: none;
+  visibility: hidden;
   background: #fff;
   transform: translateX(100%);
   transition: transform ease-in-out 0.4s;
@@ -1000,7 +1001,9 @@ margin-right: 0;
   border-radius: 4px;
   color: #ffffff;
 }
-
+ .modal-input-wrap {
+  /* position: relative;*/
+ }
 .form-button {
   min-width: 165px;
   height: 40px;
